@@ -1,4 +1,4 @@
-{% set version = '1.1.0' %}
+{% set version = "1.1.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/randomcoloR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/randomcoloR/randomcoloR_{{ version }}.tar.gz
-  sha256: 0ffe3c3dbcd37c5eb966724a0cd101cc50940c2b44537a1a38c4f5e3f2eb396a
+  sha256: cbae51a47a92b2cc3d5ab48877818404429fb73fc795430ec622a8dff20f1067
 
 build:
   merge_build_host: True  # [win]
-  number: 1
+  number: 0
   noarch: generic
 
   rpaths:
