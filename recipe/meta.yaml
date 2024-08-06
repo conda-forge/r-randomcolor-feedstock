@@ -14,7 +14,6 @@ source:
 build:
   number: 4
   noarch: generic
-
   rpaths:
     - lib/R/lib/
     - lib/
@@ -22,7 +21,6 @@ build:
 requirements:
   build:
     - {{ posix }}zip               # [win]
-
   host:
     - r-base
     - r-rtsne
@@ -31,7 +29,6 @@ requirements:
     - r-colorspace
     - r-scales
     - r-stringr
-
   run:
     - r-base
     - r-rtsne
@@ -48,7 +45,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=randomcoloR
-  license: CC0
+  license: CC0-1.0
   summary: Simple methods to generate attractive random colors. The random colors are from a
     wrapper of 'randomColor.js' <https://github.com/davidmerfield/randomColor>. In addition,
     it also generates optimally distinct colors based on k-means (inspired by 'IWantHue'
