@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-randomcolor-f
 
 Home: https://CRAN.R-project.org/package=randomcoloR
 
-Package license: CC0
+Package license: CC0-1.0
 
 Summary: Simple methods to generate attractive random colors. The random colors are from a wrapper of 'randomColor.js' <https://github.com/davidmerfield/randomColor>. In addition, it also generates optimally distinct colors based on k-means (inspired by 'IWantHue' <https://github.com/medialab/iwanthue>).
 
